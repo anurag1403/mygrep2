@@ -1,0 +1,61 @@
+./project -G diwali data2.txt
+./project -G has data3.txt
+./project -i diwali data2.txt
+./project -i am data1.txt
+./project -i technology data3.txt
+./project -w hi data.txt
+./project -w typist data1.txt
+./project -w COEP data4.txt
+./project --help
+./project -n diwali data2.txt
+./project -n has data3.txt
+./project -c people data5.txt
+./project -c am data.txt data1.txt /*multiple files*/
+./project -v hostel data6.txt
+./project -v hi data.txt data1.txt
+./project -x using data.txt
+./project -x Am data1.txt
+./project -m 2 include data7.txt
+./project -m 4 internet data8.txt
+./project -o am data1.txt
+./project -o is data.txt data3.txt data4.txt
+./project -L tech data9.txt
+./project -L in data8.txt
+./project -l am data.txt data1.txt data11.txt
+./project -H diwali data2.txt
+./project -H diwali data10.txt
+./project -h we data2.txt
+./project -h is data.txt data1.txt
+./project -r am 
+./project -r am /home/anurag/mygrep1/a
+./project -r am /home/anurag/mygrep1/a /home/anurag/mygrep1/b
+./project -A 3 hi data.txt
+./project -A 1 you data9.txt
+./project -A 100 lousy data11.txt
+./project -B 3 so data2.txt
+./project -B 100 hello data.txt
+./project -C 2 AM data.txt
+./project -C 3 is data2.txt data3.txt
+./project -w -c hi data.txt
+./project -c -w hi data.txt
+./project -v -c am data1.txt
+./project -c -v am data1.txt data5.txt
+./project -G -2 is data2.txt
+./project -G -1 tech data3.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
