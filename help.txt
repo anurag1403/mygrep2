@@ -1,0 +1,33 @@
+Usage: ./project [OPTION]... PATTERN [FILE]...
+Search for PATTERN in each FILE or standard input.
+PATTERN is, by default, a basic regular expression (BRE).
+Example: ./project -i 'hello world' menu.h main.c
+
+Regexp selection and interpretation:
+	-i,		ignore case distinctions
+	-w,		force PATTERN to match only whole words
+	-x,		force PATTERN to match only whole lines
+ 	-G,		PATTERN is a basic regular expression (BRE)	
+
+Miscellaneous:
+	-v,		select non-matching lines
+
+Output control:
+	-m NUM,		stop after NUM matches 
+	-n,		print line number with output lines
+	-o,		show only the part of a line matching PATTERN
+	-c,		print only a count of matching lines per FILE
+	-L,		print only names of FILEs containing no match
+	-l,		print only names of FILEs containing matches
+	-H,		print the file name for each match
+	-h,		suppress the file name prefix on output
+	-r,		like --directories=recurse
+
+Context control:
+	-B NUM,		print NUM lines of leading context
+	-A NUM,		print NUM lines of trailing context
+	-C NUM,		print NUM lines of output context
+
+Combmination of inputs:
+	-w -c 		print count of lines which matches features of -w options
+	-v -c		print count of all lines which do not matches given string
